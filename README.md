@@ -1,16 +1,16 @@
 # sneakers_etdn
 
-A new Flutter project.
+ ## :woman_technologist: About : 
+ Sneaker shop mobile app to improve my front-end skills
 
-## Getting Started
+## :nail_care: Mockups
 
-This project is a starting point for a Flutter application.
+Figma mockups link : https://www.figma.com/file/lDMwqJpQ1HzaWlEE2Sx8u0/Untitled?type=design&node-id=0%3A1&t=6CopqSr4MyDZaAxs-1
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  ## :hammer_and_wrench: Languages and Tools :
+  <div>
+   <img src="https://github.com/devicons/devicon/blob/master/icons/dart/dart-original.svg" title="Dart" alt="Dart" width="80" height="80"/>&nbsp;
+    <img src="https://github.com/devicons/devicon/blob/master/icons/flutter/flutter-original.svg" title="Flutter" alt="Flutter" width="80" height="80"/>&nbsp;
+</div>
+   
+  
