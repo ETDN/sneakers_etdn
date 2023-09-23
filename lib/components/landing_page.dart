@@ -1,4 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:sneakers_etdn/components/landing_page.dart';
+import 'package:sneakers_etdn/constants.dart';
+import 'package:sneakers_etdn/components/shop_page.dart';
+
+@override
+Widget build(BuildContext context) {
+  return MaterialApp(
+    home: const LandingPage(),
+    routes: {
+      '/shop': (context) => ShopPage(),
+    },
+  );
+}
 
 class LandingPage extends StatefulWidget {
   const LandingPage({super.key});
@@ -84,6 +97,42 @@ class _LandingPageState extends State<LandingPage>
                   },
                 ),
               ),
+              const Padding(
+                padding: EdgeInsets.only(top: 70),
+                child: SizedBox(height: 20),
+              ),
+              Center(
+                child: ElevatedButton(
+                    onPressed: () {
+                      // Navigate to the shop page when the button is pressed
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (context) => ShopPage()));
+                    },
+                    style: ElevatedButton.styleFrom(
+                        primary: Colors.black,
+                        shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(10))),
+                    child: Padding(
+                      padding:
+                          EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: const [
+                          Text(
+                            "Enter shop",
+                            style:
+                                TextStyle(fontFamily: 'Thunder', fontSize: 25),
+                          ),
+                          SizedBox(width: 8),
+                          Icon(
+                            Icons.arrow_forward,
+                            size: 20,
+                            color: Colors.white,
+                          )
+                        ],
+                      ),
+                    )),
+              )
             ],
           ),
         ),
